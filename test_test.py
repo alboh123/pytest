@@ -33,8 +33,8 @@ from selenium import webdriver
 class test_case1(unittest.TestCase):
     @allure.feature('Open')
     def test1(self):
-        s1 ="Ruby"
-        s2 ="Ruby"
+        s1 ="Rub"
+        s2 ="Rub"
         # Verifying Numbers
         self.assertTrue(s1 == s2, "It's not a Match.")
 
