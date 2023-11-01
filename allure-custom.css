@@ -1,0 +1,15 @@
+.allure-tag[severity="blocker"] {
+  background-color: orange;
+}
+
+.allure-tag[severity="critical"] {
+  background-color: orange;
+}
+
+.allure-tag[severity="normal"] {
+  background-color: orange;
+}
+
+.allure-tag[severity="minor"] {
+  background-color: orange;
+}
