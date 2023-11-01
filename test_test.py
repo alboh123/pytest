@@ -34,7 +34,9 @@ class test_case1(unittest.TestCase):
     @allure.epic('Класс автотестов для сравнения')
     @allure.feature('Сравнение значения двух строк')
     @allure.story('Особенный автотест')
-    @allure.title('Этот автотест проверяет важную фичу')
+    @allure.title('Этот автотест проверяет важную фичу'
+
+
     @allure.description('Это описание нам поможет понять че там в тесте происходит')
     @allure.issue('https://www.google.ru/')
     @allure.issue('https://www.google.ru/', name= 'Это какой-то issue')
@@ -50,9 +52,8 @@ class test_case1(unittest.TestCase):
     @allure.testcase("https://omni.top-academy.ru/login/index#/", name="это какой-то тест-кейс")
 
 
-    @allure.description_html('<h2>Дополнительная информация:</h2><li>Этот тест проверяет ...<li>')
 
-
+    @allure.description_html('<h2>Дополнительная информация:</h2><li>Этот тест проверяет ...<li>'))
     def test1(self):
         s1 ="Rub"
         s2 ="Rub"
