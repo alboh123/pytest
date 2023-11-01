@@ -48,6 +48,8 @@ class test_case1(unittest.TestCase):
     @allure.sub_suite('test_case2')
     @allure.suite('это какой-то сьют')
     @allure.testcase("https://omni.top-academy.ru/login/index#/", name="это какой-то тест-кейс")
+
+
     @allure.description_html('<h2>Дополнительная информация:</h2><li>Этот тест проверяет ...<li>')
 
 
